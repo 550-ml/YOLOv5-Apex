@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="52607f76-6007-4631-9937-703588f69e0a" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/yolov5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Screenshoot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov5n.pt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.dockerignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.github/CODE_OF_CONDUCT.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.github/ISSUE_TEMPLATE/bug-report.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.github/ISSUE_TEMPLATE/config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.github/ISSUE_TEMPLATE/feature-request.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.github/ISSUE_TEMPLATE/question.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.github/PULL_REQUEST_TEMPLATE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.github/SECURITY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.github/dependabot.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.github/workflows/ci-testing.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.github/workflows/codeql-analysis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.github/workflows/docker.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.github/workflows/greetings.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.github/workflows/stale.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.github/workflows/translate-readme.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.pre-commit-config.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CITATION.cff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.zh-CN.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../benchmarks.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../classify/predict.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../classify/train.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../classify/tutorial.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../classify/val.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../detect.py" beforeDir="false" afterPath="$PROJECT_DIR$/../detect.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../export.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hubconf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../models/common.py" beforeDir="false" afterPath="$PROJECT_DIR$/../models/common.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../segment/predict.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../segment/train.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../segment/tutorial.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../segment/val.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../setup.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../train.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tutorial.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../val.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2JZTXtjOSMebxGDJ9EiwvxEskp2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/AAAAAAAAAAAA/newD/work/python_project/fps1/yolov5/weights"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="52607f76-6007-4631-9937-703588f69e0a" name="变更" comment="" />
+      <created>1672284647544</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1672284647544</updated>
+    </task>
+    <servers />
+  </component>
+</project>
