@@ -1,11 +1,9 @@
 # -*-coding =utf-8 -*-
-# @Time : 2022/12/29 11:08
-# @Auther : Wang
-# @File :Screenshoot.py
-# @Software :PyCharm
+
 import cv2
 import mss
 import numpy
+
 with mss.mss() as m:
     pass
 
@@ -14,8 +12,7 @@ X_long = 1920
 Y_long = 1080
 picture_size = (int(X_long / 2 - 320), int(Y_long / 2 - 320), int(X_long / 2 + 320), int(Y_long / 2 + 320))
 # 截图是需要左上角和右下角的坐标的
-Screenshot_value = m
-
+Screenshot_value = mss.mss()
 
 # 截图函数
 def screenshot():
@@ -23,3 +20,10 @@ def screenshot():
     img = numpy.array(img)  # 截完图把数据编程np数组,你输出img就会发现他是个四通道的
     img = cv2.cvtColor(img, cv2.COLOR_BGRA2BGR)  # 四通道转三通道
     return img
+
+# 测试截图函数
+if __name__ == "__main__":
+    img = screenshot()
+    cv2.imshow("Screenshot", img)
+    cv2.waitKey(0)
+    cv2.destroyAllWindows()
