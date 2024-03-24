@@ -42,7 +42,7 @@ def run():
     global if_left_pressed
     # 加载模型
     # 返回一个torch.device对象，选择的是硬件资源，有CPU,CUDA:0（显卡序号）
-    device = torch.device('cpu')
+    device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
     # 是要加载的网络，weights是权重文件，device是上述设备，fp16是半精度推理，如果是cpu就关上，cuda就true打开
     model = DetectMultiBackend(weights='./weights/yolov5n.pt', device=device, dnn=False, data=False, fp16=False)
 
