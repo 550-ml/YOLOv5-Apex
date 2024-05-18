@@ -1,9 +1,3 @@
-# -*-coding =utf-8 -*-
-# @Time : 2022/12/30 17:24
-# @Auther : Wang
-# @File :detect.py
-# @Software :PyCharm
-
 import math
 import threading
 import time
@@ -64,7 +58,7 @@ def run():
         pred = model(im, augment=False, visualize=False)  # 推理结果，pred保存的是所有的bound_box的信息
         # 非极大值抑制  ：也是物体检测算法，依靠分类器对图片中的物体做出矩形框和概率，然后选出最高概率的框，然后遍历其他
         #               框，重叠度超过置信度阈值的就删去一个，重复过程
-        pred = non_max_suppression(pred, conf_thres=0.6, iou_thres=0.45, classes=0, max_det=1000)
+        pred = non_max_suppression(pred, conf_thres=0.6, iou_thres=0.45, classes=0, max_det=100)
         #  以上参数，conf_thres是我上述说的置信度阈值，iou_thres是iou阈值classes是要过滤的类，这里面我们要过滤人，他的编号在
         #  utils\coco128.cal是0，所以这里填0，最后一个max_det是检测框的最大数量
 
@@ -91,7 +85,7 @@ def run():
                     # 如果鼠标按下，就让鼠标移到最小值处
                     if if_left_pressed:
                         mouse_xy(int(people_info[0] - 320), int(people_info[1]) - 320)
-                        time.sleep(0.0001)  # 主动睡眠，防止移动过快
+                        time.sleep(0.000001)  # 主动睡眠，防止移动过快
 
                 im0 = annotator.result()
                 cv2.imshow('win', im0)  # 展示识别的物体
